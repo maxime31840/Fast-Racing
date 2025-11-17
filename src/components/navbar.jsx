@@ -14,8 +14,8 @@ export default function Navbar() {
             <Link to="/fast-carbone" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Fast Carbone
             </Link>
-            <Link to="/salle-exposition" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
-              Salle d'exposition
+            <Link to="/showroom" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
+              Showroom
             </Link>
 
             <Link to="/" className="flex items-center px-2">
@@ -28,8 +28,8 @@ export default function Navbar() {
             <Link to="/contact" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Nous trouver
             </Link>
-            <Link to="/rapport" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
-              Rapport
+            <Link to="/connexion" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
+              Connexion
             </Link>
 
           </div>

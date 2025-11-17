@@ -4,7 +4,6 @@ export default function streaming() {
     <div>
       <h1>Page Streaming</h1>
       <p>Contenu ici…</p>
-      console.log('Streaming rendered');
     </div>
   );
 }

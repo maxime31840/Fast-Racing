@@ -6,8 +6,8 @@ import Home from './Home.jsx';
 import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
 import Streaming from './Pages/streaming.jsx';
-import Rapport from './Pages/rapport.jsx';
-import SalleExposition from './Pages/SalleExposition.jsx';
+import Connexion from './Pages/connexion.jsx';
+import Showroom from './Pages/showroom.jsx';
 import FastImport from './Pages/FastImport.jsx';
 import FastCarbone from './Pages/FastCarbone.jsx';
 import Contact from './Pages/contact.jsx';
@@ -33,10 +33,10 @@ createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Home />} />
           <Route path="/fast-import" element={<FastImport />} />
           <Route path="/fast-carbone" element={<FastCarbone />} />
-          <Route path="/salle-exposition" element={<SalleExposition />} />
+          <Route path="/showroom" element={<Showroom />} />
           <Route path="/streaming" element={<Streaming />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/rapport" element={<Rapport />} />
+          <Route path="/connexion" element={<Connexion />} />
         </Route>
       </Routes>
     </Router>

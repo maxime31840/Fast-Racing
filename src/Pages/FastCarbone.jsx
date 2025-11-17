@@ -1,7 +1,7 @@
 export default function FastCarbone() {
   return (
     <>
-        <h1>carbone uwu</h1>
+        <h1>carbone</h1>
     </>
   )
 }
