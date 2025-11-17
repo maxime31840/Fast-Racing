@@ -1,35 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <nav className="pt-5">
-      <div className="flex flex-1 items-center justify-center">
+      <div className="flex items-center justify-center">
         <div className="hidden sm:ml-6 sm:block">
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-10 text-lg pr-20"> {/* font size increased */}
 
-            <a href="#" className="inline-block border border-white rounded-md px-3 py-1 text-sm font-medium text-gray-300 hover:text-white">
+            <Link to="/fast-import" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Fast Import
-            </a>
-            <a href="#" className="inline-block border border-white rounded-md px-3 py-1 text-sm font-medium text-gray-300 hover:text-white">
+            </Link>
+            <Link to="/fast-carbone" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Fast Carbone
-            </a>
-            <a href="#" className="inline-block border border-white rounded-md px-3 py-1 text-sm font-medium text-gray-300 hover:text-white">
+            </Link>
+            <Link to="/salle-exposition" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Salle d'exposition
-            </a>
+            </Link>
 
-            <a href="app.jsx" className="flex items-center px-2">
+            <Link to="/" className="flex items-center px-2">
               <img src="/Logo_Fast-Racing.png" alt="logo fast" className="h-15 w-auto" />
-            </a>
+            </Link>
 
-            <a href="#" className="inline-block border border-white rounded-md px-3 py-1 text-sm font-medium text-gray-300 hover:text-white">
+            <Link to="/streaming" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Streaming
-            </a>
-            <a href="#" className="inline-block border border-white rounded-md px-3 py-1 text-sm font-medium text-gray-300 hover:text-white">
+            </Link>
+            <Link to="/contact" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Nous trouver
-            </a>
-            <a href="../Connection.jsx" className="inline-block border border-white rounded-md px-3 py-1 text-sm font-medium text-gray-300 hover:text-white">
+            </Link>
+            <Link to="/rapport" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Rapport
-            </a>
+            </Link>
 
           </div>
         </div>
