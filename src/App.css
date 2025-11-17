@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Racing Sans One';
+  src: url('/RacingSansOne-Regular.ttf') format('truetype');
+}
+
+body {
+  background-image: url(/public/background-image.png);
+  font-family: 'Racing Sans One', sans-serif;
+}
+
+
