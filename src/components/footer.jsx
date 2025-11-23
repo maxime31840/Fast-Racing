@@ -14,8 +14,8 @@ export default function Footer() {
           <p className="text-lg">+41 (0)76 467 96 69</p>
           <div className="flex justify-center gap-6 mt-3">
             <a href="/contact" className="hover:underline">Contact</a>
-            <a href="#" className="hover:underline">Politique de confidentialité</a>
-            <a href="#" className="hover:underline">Conditions d'utilisation</a>
+            <a href="/confidentiality" className="hover:underline">Politique de confidentialité</a>
+            <a href="/userCondition" className="hover:underline">Conditions d'utilisation</a>
           </div>
           <p className="mt-3 text-sm">2025 © Fast RacinG All rights reserved</p>
         </div>

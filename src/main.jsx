@@ -11,6 +11,8 @@ import Showroom from './Pages/showroom.jsx';
 import FastImport from './Pages/FastImport.jsx';
 import FastCarbone from './Pages/FastCarbone.jsx';
 import Contact from './Pages/contact.jsx';
+import Confidentiality from './Pages/confidentiality.jsx';
+import UserCondition from './Pages/userCondition.jsx'
 
 // Layout component to wrap pages with Navbar and Footer
 function Layout() {
@@ -37,6 +39,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/streaming" element={<Streaming />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/connexion" element={<Connexion />} />
+          <Route path="/confidentiality" element={<Confidentiality />} />
+          <Route path="/userCondition" element={<UserCondition />} />
         </Route>
       </Routes>
     </Router>

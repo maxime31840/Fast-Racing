@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav className="pt-5">
+    <nav className="pt-5 pb-10">
       <div className="flex items-center justify-center">
         <div className="hidden sm:ml-6 sm:block">
-          <div className="flex items-center space-x-10 text-lg pr-20"> {/* font size increased */}
+          <div className="flex items-center space-x-10 text-lg pr-11"> 
 
             <Link to="/fast-import" className="inline-block border border-white rounded-md px-3 py-1 font-medium text-gray-300 hover:text-white">
               Fast Import
